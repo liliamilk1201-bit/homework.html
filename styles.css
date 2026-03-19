@@ -1,0 +1,56 @@
+body {
+    width: 900px;
+	margin: auto;
+    background-color: rgb(168, 211, 171);
+}
+h1 {
+    text-align: justify;
+	font-size: 40px;
+	text-indent: 30px;
+	
+  color: rgb(54, 70, 56);
+  font-family: "Times New Roman";
+}
+p {
+    text-align: justify;
+	font-size: 20px;
+    text-indent: 30px;
+  color: rgb(43, 68, 49);
+  font-family: "Times New Roman";
+  
+}
+img{
+	position: absolute;
+	border: 3px solid white;
+}
+li {
+  color: rgb(43, 68, 49);
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+mark {
+  background-color: rgb(79, 133, 79);
+}
+a:link {
+  color: rgb(19, 97, 19);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(15, 75, 13);
+  background-color: transparent;
+ text-decoration: none;
+}
+
+a:hover {
+  color: rgb(48, 110, 84);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(46, 90, 53);
+  background-color: transparent;
+ text-decoration: underline;
+}
