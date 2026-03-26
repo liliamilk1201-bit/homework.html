@@ -1,9 +1,9 @@
 body {
-    width: 900px;
+  width: 900px;
 	margin: auto;
-    background-color: rgb(168, 211, 171);
+  background-color: rgb(168, 211, 171);
 }
-h1 {
+h2 {
     text-align: justify;
 	font-size: 40px;
 	text-indent: 30px;
@@ -54,3 +54,9 @@ a:active {
   background-color: transparent;
  text-decoration: underline;
 }
+.math-formula {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+

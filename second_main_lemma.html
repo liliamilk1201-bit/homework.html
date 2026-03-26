@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async 
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <link rel="stylesheet" href="styles13.css">
     <title>Ряди Фур'є</title>
 </head>
 <body>
     <p><a href="dirichlet_jordan_criterion.html" target="_blank">Перейти до розділу Критерій Діріхле-Джордана</a></p>
     <h1><em>Друга основна лема</em></h1>
+    <p>Якщо функція \( f(x) \) є абсолютно інтегровною на періоді, то для будь-якого \( \delta \in (0, \pi) \) виконується рівність:</p>
+    <div class="math-formula">
+    \[ \lim_{n \to \infty} \frac{1}{\pi} \int_{\delta}^{\pi} f(x \pm t) \frac{\sin (n + \frac {1}{2})t}{ \sin (\frac{t}{2})} dt = 0 \]
+    </div>
     <p>Друга основна лема <strong>(іноді згадується у контексті ознаки Діріхле або інтегрального числення)</strong> — це твердження, яке гарантує існування інтеграла від добутку двох функцій, якщо одна з них має обмежену зміну (або монотонна), а інша — обмежений інтеграл. Вона є важливою частиною теорії інтегралів та інтегрального числення, застосовується для доведення збіжності невласних інтегралів, наприклад, <sub>у теоремі Діріхле </sub>.
     </p>
     
